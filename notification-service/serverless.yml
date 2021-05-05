@@ -34,5 +34,7 @@ custom:
     name: MailQueue-${self:provider.stage}
     arn: !GetAtt MailQueue.Arn
     url: !Ref MailQueue
+  Test:
+    name: nameofsomething
   bundle:
     linting: false
