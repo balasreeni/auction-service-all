@@ -28,6 +28,7 @@ async function createAuction(event, context) {
     }
     try
     {        
+        console.log('Reached the dynamodb put');
         await dynamodb.put({
             TableName: process.env.AUCTIONS_TABLE_NAME,
             Item: auction,
@@ -37,8 +38,6 @@ async function createAuction(event, context) {
     {
         console.error(error) ;
         throw new createError.InternalServerError(error) ;
-
-        throw new createError.InternalServerError()
     }
     return {
             statusCode: 201, 
