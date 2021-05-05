@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Serverless
 Serverless example
 
@@ -25,11 +24,11 @@ configure AUCTIONS_HOST and AUTH_URL in your Postman global variables on the val
 
 run the following URL to get your token and copy the auth token text 
 
-curl --location --request POST 'https://\<your auth0 account\>.us<or any other region>.auth0.com/oauth/token' \
+curl --location --request POST 'https://<your auth0 account>.us<or any other region>.auth0.com/oauth/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'client_id=\<copy client id from your auth0 settings\>' \
---data-urlencode 'username=\<you should add a user / role with a password - mention user name added to auth0 account here\>' \
---data-urlencode 'password=\<your password for the added user\>' \
+--data-urlencode 'client_id=<copy client id from your auth0 settings' \
+--data-urlencode 'username=<you should add a user / role with a password - mention user name added to auth0 account here' \
+--data-urlencode 'password=<your password for the added user>' \
 --data-urlencode 'grant_type=password' \
 --data-urlencode 'scope=openid'
 
@@ -65,6 +64,3 @@ i) Last - Ensure you configure the periodicity of your processAuctions (in aucti
 
 Post a query if there are any issues
 
-=======
-Auction Service
->>>>>>> f3ebb257c8d92e7400d920ea60a2a1317b3ef816

@@ -11,6 +11,8 @@
   Based on the <a href="https://github.com/serverless/examples/tree/master/aws-node-auth0-custom-authorizers-api">serverless/examples/aws-node-auth0-custom-authorizers-api</a> example.
 </p>
 
+NOTE - This sample uses sample auth0 code from condingly. This can be replaced with any other auth service
+
 ## Features
 
 - Test front-end application
